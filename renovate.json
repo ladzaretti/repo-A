@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "config:base",
+    "github>whitesource/merge-confidence:beta"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "@floating-ui/react-dom"
+      ],
+      "allowedVersions": "<0.6.3"
+    }
+  ]
+}
